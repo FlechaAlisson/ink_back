@@ -47,6 +47,7 @@ async function verifyAuth(req, res, next) {
 // ==========================================================
 // 🔐 LOGIN DE USUÁRIO
 // ==========================================================
+const API_KEY = "AIzaSyBWbGExveDH9My2zQCDR_55TwX-dS82wl8";
 
 exports.loginUser = functions.https.onRequest(async (req, res) => {
   try {
