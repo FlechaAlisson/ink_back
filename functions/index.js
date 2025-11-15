@@ -179,7 +179,7 @@ app.post("/book", verifyAuth, async (req, res) => {
     const {date, startAt} = req.body;
 
     console.log(date);
-    console.log(startAt);
+    console.log(startAt)
 
     const [h, m] = startAt.split(":").map(Number);
     const bookingDate = new Date(date);
